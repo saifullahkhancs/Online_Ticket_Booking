@@ -1,0 +1,227 @@
+
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    text-shadow: 1px 1px 7px #6b6b6b;
+    letter-spacing: 5px;
+    margin: 1.3em 0 .7em;
+    text-align: center;
+    font-family: 'Megrim', cursive;
+}
+
+h2.sub-heading-agileits,
+h3.sub-heading-agileits {
+    display: inline-block;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: .4em;
+    padding: 0px 25px 10px 0px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #0091cd;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    background: url(../static/banner1.jpg)no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; */
+    /*background-attachment: fixed;*/
+}
+
+.booking-form-w3layouts{
+    margin-bottom: 80px;
+}
+.booking-form-w3layouts {
+    box-sizing: border-box;
+    padding: 3em 3em;
+    background: rgba(0, 0, 0, 0.78);
+    width: 65%;
+    margin: 0 auto;
+}
+.booking-form-w3layouts input[type="text"],
+.booking-form-w3layouts input[type="email"],
+.booking-form-w3layouts textarea,
+select.form-control,
+input#datepicker {
+    width: 100%;
+    font-weight: 300;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    padding: 10px 10px;
+    outline: none;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.booking-form-w3layoutss textarea {
+    resize: none;
+    height: 80px;
+    
+    /* margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; */
+}
+
+.field-agileinfo-spc {
+    margin-bottom: 1em;
+    /* margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; */
+}
+
+.form-control {
+    padding: 10px;
+    height: max-content;
+}
+.form-w3-agile-text {
+    width: 100%;
+    /* margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;*/
+    vertical-align: baseline; 
+}
+
+select.form-control option {
+    background: #000;
+    padding:10px;
+    /* margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; */
+}
+
+
+h6  {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    color: #fff;
+    vertical-align: baseline;
+}
+
+
+.radio-section {
+    text-align: left;
+    margin: 0.7em 0;
+}
+
+.radio-section h6 {
+    display: inline;
+    margin-top: 10px;
+    color: #0091cd;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin-bottom: .7em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.radio-section ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.radio-buttons-w3-agileits li input[type="radio"] {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.radio-buttons-w3-agileits li label {
+    color: #fff;
+    font-size: 13.5px;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+
+
+.booking-form-w3layouts button[type="submit"],
+.booking-form-w3layouts input[type="reset"] {
+    text-transform: capitalize;
+    background: #0091cd;
+    color: #fff;
+    padding: 0.5em 4em;
+    border: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 1em;
+    float: left;
+    outline: none;
+    letter-spacing: 1px;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.booking-form-w3layouts button[type="submit"] {
+    margin-right: 1.5em;
+    background: #d2741c;
+}
+
+.booking-form-w3layouts button[type="submit"]:hover {
+    background: #0091cd;
+    color: #fff;
+}
+
+.booking-form-w3layouts input[type="reset"]:hover {
+    background: #d2741c;
+    color: #fff;
+}

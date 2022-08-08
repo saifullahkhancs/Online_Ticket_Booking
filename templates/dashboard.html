@@ -1,0 +1,145 @@
+<html>
+   <head>
+      <title>   Booking </title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href = "static/dashboard.css" />
+
+      <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+    </head>
+<body>
+    <h1 >Airline Booking Form </h1>
+
+     <!-- <center>   -->
+
+<div class="booking-form-w3layouts">
+
+
+
+    <form >  
+    <h2 class="sub-heading-agileits">Booking Details</h2>
+		<div class="main-flex-w3ls-sectns">
+			<div class="field-agileinfo-spc form-w3-agile-text1">
+				<select id = "from" class="form-control">
+					<option value= "From">From</option>
+					<option value="Pakistan">Pakistan</option>
+					<option value="India">India</option>
+					<option value="Turkey">Turkey</option>
+					<option value="China">China</option>
+					<option value="America">America</option>
+					<option value="England">England</option>
+					</select>
+			</div>
+			<div class="field-agileinfo-spc form-w3-agile-text2">
+				<select id = "to" class="form-control">
+					<option value = "To">To</option>
+                    <option value="Pakistan">Pakistan</option>
+					<option value="India">India</option>
+					<option value="Turkey">Turkey</option>
+					<option value="China">China</option>
+					<option value="America">America</option>
+					<option value="England">England</option>
+										
+				</select>
+			</div>
+		</div>
+			<div class="main-flex-w3ls-sectns">
+				<div class="field-agileinfo-spc form-w3-agile-text1">
+					<select id = "airline" class="form-control">
+										<option value ="Preferred_Airline" >Preferred_Airline</option>
+										<option value="American Airline">American Airline</option>
+										<option value="Delta Airlines">Delta Airlines</option>
+										<option value="Frontier Airline">Frontier Airline</option>
+										<option value="Jet Blue">Jet Blue</option>
+										<option value="Southwest Airlines">Southwest Airlines</option>
+					</select>
+				</div>
+            </div>
+
+				<div class="field-agileinfo-spc form-w3-agile-text2">
+					<select id = "class" class="form-control">
+										<option value ="Preferred_Class" >Preferred_Class</option>
+										<option value="A">A</option>
+										<option value="B">B</option>
+										<option value="C">C </option>
+					</select>
+				</div>
+
+                <div class="radio-section">
+				<h6>Select your Fare</h6>
+				    <ul class="radio-buttons-w3-agileits">
+					    <li>
+						    <input type="radio" id="a-option" name="selector1">
+						    <label for="a-option">One Way</label>
+						    <div class="check"></div>
+					    </li>
+					    <li>
+						    <input type="radio" id="b-option" name="selector1">
+						    <label for="b-option">Round-Trip</label>
+						    <div class="check"> </div>
+					    </li>
+				    </ul>
+                </div>
+      
+                <h3 class="sub-heading-agileits">Personal Details</h3>
+                <div class="main-flex-w3ls-sectns">
+                    <div class="field-agileinfo-spc form-w3-agile-text1">
+                        <input type="text" id="name" placeholder="Full Name" required="">
+                    </div>
+                    <div class="field-agileinfo-spc form-w3-agile-text2">
+                        <input type="text" id ="Phone_no" placeholder="Phone Number" required="">
+                    </div>
+                </div>
+                <div class="field-agileinfo-spc form-w3-agile-text">
+                    <input type="email" id="Email" placeholder="Email" required="">
+                </div>
+                
+                <button id = "button" type = "Submit"> Submit</button>
+                <input type="reset" value="Clear Form">
+               
+
+   </form>
+</div>
+</body>
+
+   <script src="{{url_for('static', filename='dashboard.js')}}">  </script>
+</html>
+      
+   <!--   <div class="form-group">
+
+
+      <label for="exampleInputEmail1">Choose your personal device</label>
+      <br>
+   <div style= "padding-top: 6px;">
+   <input  type="checkbox" id="device1" name="device1" value="Bike">
+   <label style= "padding-right: 10px;" for="device1"> Computer</label>
+   <input  type="checkbox" id="device2" name="device2" value="Car">
+   <label style= "padding-right: 10px;" for="device2"> Mobile</label>
+   <input  type="checkbox" id="device3" name="device3" value="Boat">
+   <label style= "padding-right: 10px;" for="device3"> Laptop</label>
+   </div>
+   <small style= "padding-bottom: 30px;" class="form-text text-muted" id = "check_message"></small>
+<br>
+   <label style= "padding-top: 10px;" for="exampleInputEmail1">Choose your Favourite Language</label>
+<br>
+   <div style= "padding-top: 6px;">
+   <input type="radio" id="html" name="fav_language" value="HTML">
+   <label style= "padding-right: 10px;" for="html">HTML</label>
+   <input type="radio" id="css" name="fav_language" value="CSS">
+   <label style= "padding-right: 10px;" for="css">CSS</label>
+   <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+   <label style= "padding-right: 10px;" for="javascript">JavaScript</label>
+   </div>
+   <small style= "margin-bottom: 10px;"  class="form-text text-muted" id = "radio_message"></small>
+<br>
+
+   
+   
+
+   <br>
+
+   <small   style= "padding-left: 60%; padding-bottom: 10px;" class="form-text text-muted" id = "final_message"></small>
+-->
